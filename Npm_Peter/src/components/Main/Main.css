@@ -6,80 +6,76 @@
     text-align: center;
     padding: 72px 24px;
     background-color: var(--cor-fundo-suave);
-  }
+}
 
-  .hero h1 {
+.hero h1 {
     font-size: 36px;
     font-weight: 600;
     line-height: 1.2;
     max-width: 14ch;
-  }
+}
 
-  .hero p {
+.hero p {
     color: var(--cor-texto-suave);
     max-width: 46ch;
-  }
+}
 
-  /* ===== FLEX 4: os dois botões lado a lado ===== */
-  .acoes {
+.acoes {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 12px;
+    gap: 16px;
     margin-top: 8px;
-  }
+}
 
-  .botao {
+.botao {
     border: 1px solid var(--cor-destaque);
     border-radius: var(--raio);
-    padding: 12px 24px;
-    font-size: 15px;
-  }
+    padding: 8px 18px;
+    font-size: 16px;
+}
 
-  .botao-cheio {
+.botao-cheio {
     background-color: var(--cor-destaque);
     color: #ffffff;
-  }
+}
 
-  .botao-vazado {
+.botao-vazado {
     background-color: transparent;
     color: var(--cor-destaque);
-  }
+}
 
-  /* ===== GRID 1: as três colunas de serviços =====
-     repeat(3, 1fr) cria 3 colunas iguais.
-     gap vale para linhas e colunas ao mesmo tempo. */
-  .servicos {
-    max-width: var(--largura-max);
+.servicos {
+    max-width: var(--largura-maxima);
     margin: 0 auto;
     padding: 56px 24px;
-  }
+}
 
-  .servicos h2 {
+.servicos h2 {
     font-size: 24px;
     font-weight: 600;
     margin-bottom: 24px;
-  }
+}
 
-  .grade-cards {
+.grade-cards {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 16px;
-  }
+    gap: 16px;    
+}
 
-  .card {
+.card {
     background-color: var(--cor-fundo-suave);
     border-radius: var(--raio);
     padding: 24px;
-  }
+}
 
-  .card h3 {
+.card h3 {
     font-size: 17px;
     font-weight: 600;
     margin-bottom: 6px;
-  }
+}
 
-  .card p {
-    font-size: 15px;
+.card p {
+    font-size: 14px;
     color: var(--cor-texto-suave);
-  }
+}
